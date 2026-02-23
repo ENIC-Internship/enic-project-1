@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using backend.Services;
-using backend.Services.Interfaces;
+using backend.Services.Interface;
 
 namespace backend.Extensions;
 

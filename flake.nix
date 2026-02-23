@@ -17,8 +17,8 @@
           dotnet-ef
           nodejs_24
           omnisharp-roslyn
+          csharp-ls
           # vimPlugins.omnisharp-extended-lsp-nvim
-          # csharp-ls
           csharpier
           openssl
           sqlcmd

@@ -22,7 +22,7 @@ services:
     volumes:
       - ./backend:/app
     environment:
-      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=TestDB;User Id=SA;Password=sq1server@Admin;TrustServerCertificate=True;"
+      ConnectionStrings__DefaultConnection: "Server=database,1433;Database=TestDB;User Id=SA;Password=sq1server@Admin;TrustServerCertificate=True;"
       ASPNETCORE_URLS: "http://+:80"
       ASPNETCORE_ENVIRONMENT: Development
     # stdin_open: true
